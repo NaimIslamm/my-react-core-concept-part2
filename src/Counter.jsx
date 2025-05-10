@@ -1,11 +1,16 @@
+// doing state manage-----------
+
 import { useState } from "react";
 
 export default function Counter() {
   const [count, setCount] = useState(0);
+  //   add-------
   const handleAdd = () => {
     const newCount = count + 1;
     setCount(newCount);
   };
+
+  //   reduce------
   const handleReduce = () => {
     const newCount = count - 1;
     setCount(newCount);
