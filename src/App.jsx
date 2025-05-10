@@ -3,7 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Counter from "./Counter";
-
+import Friends from "./Post";
+import Details from "./Details";
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -47,6 +48,8 @@ function App() {
         Click Me
       </button>
       <Counter></Counter>
+      <Friends></Friends>
+      <Details></Details>
     </>
   );
 }

@@ -16,7 +16,14 @@ export default function Counter() {
     setCount(newCount);
   };
   return (
-    <div style={{ border: "1px solid green" }}>
+    <div
+      style={{
+        border: "1px solid green",
+        borderRadius: "10px",
+        backgroundColor: "tomato",
+        margin: "0 10px",
+      }}
+    >
       <h3>Count:{count}</h3>
       <button onClick={handleAdd}>Add</button>
       <button onClick={handleReduce}>Reduce</button>
