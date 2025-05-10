@@ -21,7 +21,7 @@ export default function Counter() {
         border: "1px solid green",
         borderRadius: "10px",
         backgroundColor: "tomato",
-        margin: "0 10px",
+        padding: "10px",
       }}
     >
       <h3>Count:{count}</h3>
